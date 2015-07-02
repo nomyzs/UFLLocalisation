@@ -1,0 +1,353 @@
+<resources>
+    <string name="app_name">Ultimate Fan Live</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_register">Sign up</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_password_field_required">Password field is required</string>
+    <string name="error_username_field_required">Username field is required</string>
+    <string name="error_password_mismatch">Username field is required</string>
+    <string name="error_not_accept_facebook_permissions">You have to accept all permissions</string>
+    <string name="error_unknown_error">Unknown error occurred, try again</string>
+    <string name="error_username_unavailable">Username is taken</string>
+    <string name="error_email_unavailable">Account with that email exists</string>
+    <string name="error_email_field_required">Email is required</string>
+
+    <string name="progress_loading_msg">Logging in…</string>
+    <string name="sign_up_using_facebook">Sign up using Facebook</string>
+    <string name="forget_password_msg">Forgot Password? Tap here…</string>
+    <string name="password_label">Password</string>
+    <string name="confirm_password_label">Confirm</string>
+    <string name="registration_email_label">E-mail</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+
+    <!-- Main lobby -->
+    <string name="create_league_lbl">Create a league</string>
+    <string name="join_league_lbl">Join a league</string>
+    <string name="header_your_leagues">Your Leagues</string>
+    <string name="header_public_games">Public Games</string>
+    <string name="header_news_feed">News Feed</string>
+    <string name="lobby_row_last_active">Last Active %d Hours Ago</string>
+    <string name="lobby_stats_global_rank">Global Rank</string>
+    <string name="lobby_stats_team_rank">Team Rank</string>
+    <string name="header_your_stats">Your stats this week</string>
+    <string name="lobby_join_public_game">Join Public Game</string>
+    <string name="lobby_public_game_desc">Play a game with fans\\nfrom all over the world!</string>
+
+    <!-- Invite friends screen -->
+    <string name="invite_via_fb_label">Invite a Facebook friend</string>
+    <string name="invite_via_tweet_label">Invite via tweet</string>
+    <string name="invite_via_whatsapp_label">Invite a WhatsApp Contact</string>
+    <string name="invite_via_email_label">Invite via an Email</string>
+    <string name="invite_via_sms_label">Invite via an SMS</string>
+    <string name="app_chooser_invite_by_sms">Send sms…</string>
+    <string name="app_chooser_invite_by_email">Send email…</string>
+
+    <!-- Match history, profile, leaderboards -->
+    <string name="match_history_rank">%dnd\nRank</string>
+    <string name="match_history_your_points">%d\nYour PTS</string>
+    <string name="match_hisotry_average_points">%d\nAVG PTS</string>
+    <string name="menu_edit_username">Edit username</string>
+    <string name="menu_change_fav_team">Change favorite team</string>
+    <string name="error_teams_download_failed">Failed to download teams</string>
+    <string name="successful_set_fav_team_request">Success</string>
+    <string name="error_choose_fav_team_no_selection">You have to select a team</string>
+    <string name="change_username_label">Change your username</string>
+    <string name="error_invalid_username">Invalid username</string>
+    <string name="btn_save_text">Save</string>
+    <string name="menu_select_from_gallery">Select photo from gallery</string>
+    <string name="menu_take_photo">Take a photo</string>
+    <string name="err_file_not_found">File not found</string>
+    <string name="leaderboards_played_header">PL</string>
+    <string name="leaderboards_played_won">W</string>
+    <string name="leaderboards_played_pts">PTS</string>
+    <string name="leaderboards_global_rank_header">Global Rank</string>
+    <string name="profile_leaderboards_btn">Laderboards</string>
+    <string name="profile_match_history_btn">Match History</string>
+    <string name="profile_close_btn">Close</string>
+    <string name="rank">Rank</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="season">Season</string>
+
+    <!-- Groups -->
+    <string name="fixtures_btn_play">Create a game</string>
+    <string name="public_btn_play_now">play now</string>
+    <string name="user_specialisation_admin">Group Admin</string>
+    <string name="match_history_btn">Match History</string>
+    <string name="leaderboards_btn">Leaderboards</string>
+    <string name="message_input_hint">MESSAGE</string>
+    <string name="chat_unsupported_view">The view is not supported, update app</string>
+    <string name="match_history_league">League</string>
+    <string name="match_history_pts">pts</string>
+    <string name="predraft_screen_public_desc">Draft begins when 5 players are in the room.</string>
+    <string name="start_draft_btn">Start Draft</string>
+    <string name="predraft_awaiting_player">Awaiting player...</string>
+    <string name="point_scoring_header">You receive points Live if your player does any of the following</string>
+    <string name="positive_points">Positive Points</string>
+    <string name="negative_points">Negative Points</string>
+    <string name="draft_round_list_header">Round %d</string>
+    <string name="drafting_label">Drafting...</string>
+    <string name="you_have_been_kicked_message">You have been kicked of the group</string>
+    <string name="sure_to_kick_user_prompt" formatted="false">Are you sure you want to kick %s</string>
+    <string name="group_name">Group Name</string>
+    <string name="pin">Pin</string>
+    <string name="group_image">Group Image</string>
+    <string name="notifications">Notifications</string>
+    <string name="group_members">Group Members</string>
+    <string name="leave_group">Leave Group</string>
+    <string name="done">Done</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_fixtures">No games in near future.\nCheck before season starts</string>
+    <string name="group_members_invite_btn">Invite group members</string>
+    <string name="group_create_name_label">Group name</string>
+    <string name="group_members_kick">KICK</string>
+    <string name="group_chat_invite_join">Join</string>
+    <string name="group_create_group_name_message">Name your group then invite friends by sharing your pin code</string>
+    <string name="group_chat_invite_dismiss">Dismiss</string>
+
+    <!-- Tutorials -->
+    <string name="tutorial_predraft_prompt_message">What happends next?\nFind out how the Pre-Game Draft works</string>
+    <string name="tutorial_predraft_prompt_action">Draft Explained</string>
+    <string name="understood">Understood</string>
+    <string name="tut_draft_explained_title">Draft Explained</string>
+    <string name="tut_draft_explained_message">Your draft position is randomised.\nPick 2 players each turn bby turn.\nBe quick or we will have to pick for you</string>
+    <string name="tutorial_league_table">Group league tables and match history are updated after you play a group match.</string>
+    <string name="tutorial_league_table_2nd">Here’s an example if 5 of you play.</string>
+    <string name="tutorial_game_feed_swipe">Swipe left and right to toggle through game screens</string>
+    <string name="tutorial_game_feed_feed">And here is your game timeline, where points come through live!</string>
+    <string name="tutorial_game_feed_powerups">Tap here to activate powerups. You can activate up to 3 powerups per half and you receive 2 powerups for free.</string>
+    <string name="tutorial_public_fixtures_message" formatted="false">Public game opens %s before kick off.</string>
+    <string name="tutorial_group_pts_1st">1ST</string>
+    <string name="tutorial_group_pts_2nd">2ND</string>
+    <string name="tutorial_group_pts_3rd">3RD</string>
+    <string name="tutorial_group_pts_4th">4TH</string>
+    <string name="tutorial_group_pts_5th">5TH</string>
+    <string name="tutorial_group_pts_5pts">5 PTS</string>
+    <string name="tutorial_group_pts_4pts">4 PTS</string>
+    <string name="tutorial_group_pts_3pts">3 PTS</string>
+    <string name="tutorial_group_pts_2pts">2 PTS</string>
+    <string name="tutorial_group_pts_1pt">1 PTS</string>
+
+    <!-- Game -->
+    <string name="trade_btn">Trade</string>
+    <string name="def">Def</string>
+    <string name="mid">Mid</string>
+    <string name="gk">Gk</string>
+    <string name="fwd">Fwd</string>
+    <string name="game_feed_label">Game feed</string>
+    <string name="timeline_footer_gamestart_text">Game Start\n%s</string>
+    <string name="pts">pts</string>
+    <string name="first_share_game_prompt">Earn 200 coins \nfor sharing your draft with friends.</string>
+    <string name="share_powerup">Make your boost \nlast 20% longer by telling your mates!</string>
+    <string name="action_power_up">Power Up</string>
+    <string name="double_points">Double  points</string>
+    <string name="double_points_text">Get double points for the next %d mins</string>
+    <string name="use_it">Use it</string>
+    <string name="freeze_opponent">Freeze opponent</string>
+    <string name="freeze_card_text">Freeze an opponent for the next %d mins</string>
+    <string name="power_up_cards">Power Up Cards</string>
+    <string name="used">Used</string>
+    <string name="select">Select </string>
+    <string name="use_double_points_header">Double Points</string>
+    <string name="use_freeze_title">Freeze Players</string>
+    <string name="freeze_player">Freeze player</string>
+    <string name="pick_a_player">Pick a player</string>
+    <string name="group_chat_label">Group Chat</string>
+    <string name="match_chat_label">Match Chat</string>
+    <string name="player">Player</string>
+    <string name="players">Players</string>
+    <string name="undrafted">Undrafted</string>
+    <string name="trade_title">Trade</string>
+    <string name="winner_label">Winner!</string>
+    <string name="trade_offer_title">Trade Offer</string>
+    <string name="points">Points</string>
+    <string name="trade_summary" formatted="false">%s for Heniek %s.</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="trade_summary_prefix">I want to trade </string>
+    <string name="trade_summary_for"> for </string>
+    <string name="offer_trade">Offer Trade</string>
+    <string name="pay">Pay</string>
+    <string name="earn">Earn</string>
+    <string name="counter">Counter</string>
+    <string name="please_decide_offer_before_leaving">Please decide on the offer before you leave</string>
+    <string name="change_forgotten_password_header">You have forgotten your password, create a new one</string>
+    <string name="pre_draft_chat_page_title">Chat</string>
+    <string name="pre_draft_opponents_title">Opponents</string>
+    <string name="pre_draft_chat_players_title">Players</string>
+    <string name="group_page_members_title">Group members</string>
+    <string name="group_page_league_table_title">League Table</string>
+    <string name="group_page_fixtures_title">Fixtures</string>
+    <string name="leave_group_alert_message">Are you sure you want to leave the group?</string>
+    <string name="game_page_feed_title">Game</string>
+    <string name="game_page_trend_title">Trend</string>
+    <string name="game_page_rank_title">Rank</string>
+    <string name="game_page_chat_title">Chat</string>
+    <string name="player_trend_player_score_range" formatted="false">%dm - %dm</string>
+    <string name="pt">Pt</string>
+    <string name="err_empty_group_name">Fill group name</string>
+    <string name="copied_to_clipboard">Message copied to clipboard</string>
+    <string name="HT">HT</string>
+    <string name="FT">FT</string>
+    <string name="unknown_trade_type_chat_label">Unknown trade type</string>
+    <string name="chat_label_trade_extended">Trade extended</string>
+    <string name="chat_label_trade_accepted">Trade accepted</string>
+    <string name="chat_label_trade_reject">Trade rejected</string>
+    <string name="chat_label_trade_countered">Trade countered</string>
+    <string name="chat_label_trade_cancelled">Trade cancelled</string>
+    <string name="chat_label_trade_invalidated">Trade invalidated</string>
+    <string name="leave_game_alert">If you leave this game you will not be able to join the same match again. \nAre you sure you want to leave?</string>
+    <string name="game_used_powerup_format" formatted="false">%d/%d</string>
+    <string name="report_user">Report User</string>
+    <string name="report_user_subjcet">Reporting Abuse</string>
+    <string name="use_now">Use Now</string>
+    <string name="not_sufficient_funds">Not sufficient funds available</string>
+    <string name="game_last_update" formatted="false">Last update at %s</string>
+    <string name="game_power_up_used_this_half">Powerups used\nthis half</string>
+    <string name="game_stats_shots">Shots</string>
+    <string name="format_report_user_message" formatted="false">Hey Guys, I was playing a public game %s vs %s and I wanted to report user %s for..</string>
+    <string name="format_powerup_feed_start" formatted="false">%s Start</string>
+    <string name="format_powerup_feed_end" formatted="false">%s End</string>
+    <string name="format_trade_notification_message" formatted="false">Your trade offer %s for %s has been %s</string>
+    <string name="format_min">%d min</string>
+    <string name="format_trade_notification_title" formatted="false">%s wants to trade</string>
+    <string name="format_trade_notification_players" formatted="false">%s for %s</string>
+    <string name="format_trade_notification_price" formatted="false">And %s %d coins</string>
+
+    <string name="format_pu_last_x_minutes" formatted="false">Lasts %d minutes.</string>
+    <string name="powerup_sharpshooter_title">Sharpshooter</string>
+    <string name="powerup_passmaster_title">Pass Master</string>
+    <string name="powerup_defensive_rock_title">Defensive Rock</string>
+    <string name="powerup_immunity_title">Immunity</string>
+    <string name="powerup_freeze_title">Freeze</string>
+    <string name="powerup_double_title">Double Points</string>
+    <string name="powerup_wing_wizard_title">Wing Wizard</string>
+    <string name="powerup_player_averages_title">Player Averages</string>
+    <string name="powerup_player_averages_desc">See player draft averages to help you pick the right player.</string>
+    <string name="powerup_double_desc">The original power-up. Points are doubled for all actions that take place in all areas of the pitch.</string>
+    <string name="powerup_freeze_desc">Gives you the power to freeze one of your opponents players. They will receive no points during this period.</string>
+    <string name="powerup_passmaster_desc">Points are doubled for all passing actions that take place in all areas of the pitch.</string>
+    <string name="powerup_sharpshootre_desc">Points are doubled for all actions that take place in the attackers final third of the pitch.</string>
+    <string name="powerup_defensive_rock_desc">Points are doubled for all actions that take place in the defenders half of the pitch.</string>
+    <string name="powerup_immunity_desc">Choose one of your players to receive this, and they cannot be frozen by opponents for 15 minutes.</string>
+    <string name="powerup_wing_wizard_desc">Points are doubled for all actions that take place on the left and right sides of the pitch.</string>
+
+    <!-- Menu -->
+    <string name="menu_leave_game">Leave game</string>
+    <string name="menu_back_to_game">Back to game</string>
+    <string name="menu_main_lobby">Main Lobby</string>
+    <string name="menu_leagues">Leagues</string>
+    <string name="menu_point_scoring">Point Scoring</string>
+    <string name="menu_support">Support &amp; feedback</string>
+    <string name="menu_sign_out">Sign out</string>
+    <string name="menu_terms_privacy">Terms &amp; Privacy</string>
+    <string name="menu_match_history">Match History</string>
+    <string name="drawer_edit">Edit</string>
+
+
+    <string name="action_profile">Profile</string>
+    <string name="dialog_message_password_email_send">Check your inbox for an email</string>
+    <string name="trade_offer_no_longer_avail">Trade offer is no longer on the table</string>
+    <string name="global_leaderboard_title_all_time">All time</string>
+    <string name="global_leaderboard_title_month">This month</string>
+    <string name="global_leaderboard_title_week">This week</string>
+
+
+    <!-- Screen Labels -->
+    <string name="label_join_group">Join Group</string>
+    <string name="label_create_group">Create Group</string>
+    <string name="label_join_public_game">Join Public Game</string>
+    <string name="label_waiting_for_public_game">Waiting For Public Game</string>
+    <string name="label_choose_fav_team">Select Favourite Team</string>
+    <string name="label_change_username">Change Username</string>
+    <string name="label_invite_to_group">Invite Friends</string>
+    <string name="view_name_point_scoring">Point scoring</string>
+    <string name="label_settings">Settings</string>
+    <string name="label_group_members">Group Members</string>
+    <string name="group_page_league_leaderboards_title">Leagues</string>
+
+    <!-- Coins -->
+    <string name="action_coins">Coins</string>
+    <string name="invite_for_coins" formatted="false">Get a friend to join UFL and earn 4,000 coins per person!</string>
+    <string name="coins_store_desc">Your wallet contains all the coins you have accumulated from playing and winning matches. If you would like to purchase more coins you can do so below.</string>
+    <string name="format_coins_price" formatted="false">%s coins </string>
+    <string name="format_coins_balance" formatted="false">%s Coins </string>
+    <string name="coins">Coins</string>
+    <string name="buy_coins">Buy Coins</string>
+    <string name="no_store_items">No Items found.\nPlease check your connection and try again later</string>
+    <string name="coins_history">Coins History</string>
+
+    <!-- Multiple matches sidebar -->
+    <string name="sidebar_title">Matches</string>
+    <string name="create">Create</string>
+    <string name="waiting">Waiting</string>
+    <string name="live">Live</string>
+    <string name="finished">Finished</string>
+    <string name="drafting">Drafting</string>
+    <string name="your_turn">Your Turn!</string>
+    <string name="start_a_new_game">Start a new game</string>
+    <string name="matching">Matching</string>
+    <string name="invited">Invited</string>
+    <string name="unknown">Unknown</string>
+    <string name="join">Join</string>
+    <string name="start">Start</string>
+    <string name="a_new_game">A New Game</string>
+    <string name="games">Games</string>
+    <string name="start_game_dialog_public_game">Public</string>
+    <string name="start_game_dialog_private_game">Private</string>
+    <string name="format_join_game_popup_message" formatted="false">Do you wan to join %s vs %s game?</string>
+
+
+    <!-- General Words -->
+    <string name="vs">vs</string>
+    <string name="other">Other</string>
+    <string name="defender">Defender</string>
+    <string name="midfielder">Midfielder</string>
+    <string name="goalkeeper">Goalkeeper</string>
+    <string name="forward">Forward</string>
+    <string name="time_left_for_drafting">Time left for drafting</string>
+    <string name="you">You</string>
+    <string name="joined">Joined!</string>
+    <string name="okay">okay</string>
+    <string name="no">No</string>
+    <string name="chat_notification_btn_play">play now</string>
+    <string name="game_public_chat">Chat</string>
+    <string name="public_fixtures_join_btn">Join Game</string>
+    <string name="invite_a_friend">Invite a friend</string>
+    <string name="btn_invite">Invite</string>
+    <string name="view_name_terms_privacy">Terms &amp; Privacy</string>
+    <string name="format_app_ver" formatted="false">Ultimate Fan Live v&#46; %s</string>
+    <string name="balance">Balance</string>
+    <string name="buy_more">Buy More</string>
+    <string name="need_coins">Need Coins?</string>
+    <string name="cancel">Cancel</string>
+    <string name="try_again_shortly">Try again shortly</string>
+    <string name="drafted">Drafted</string>
+    <string name="your_balance">Your Balance:</string>
+    <string name="format_flash_message_title">You earned %s Coins!</string>
+    <string name="err_no_internet_connection">Check your internet connection</string>
+    <string name="err_no_channels_for_share">Sorry, we couldn\'t find any apps that we can use for sharing</string>
+    <string name="err_browser_not_found">Couldn\'t find a browser app</string>
+    <string name="general_ok">Ok</string>
+    <string name="general_no_thanks">No, thanks</string>
+    <string name="free">Free </string>
+    <string name="no_history">No History</string>
+    <string name="tap_to_see_more_info">Tap to see more info.</string>
+    <string name="predraft_screen_desc">Draft begins when the admin presses start (2 to 5 players can play)</string>
+    <string name="buy_player_avgs_prompt_message">Want to see draft order appear by best players averages?</string>
+    <string name="buy_player_avgs_prompt_message_part2" formatted="false">Tap here to unlock for %d coins</string>
+    <string name="avg_in_bracets">[avg]</string>
+    <string name="waiting_for_public_game_message">Please wait to join public party</string>
+    <string name="loading">Loading...</string>
+    <string name="predraft_member_joined_status">Joined</string>
+    <string name="fixtures_notify_switch_desc">Notify me when the game opens</string>
+
+</resources>
