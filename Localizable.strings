@@ -319,3 +319,4 @@
 "fixtures_notify_switch_desc"="Notify me when the game opens";
 "buy_fixture_title"="Unlock Fixture";
 "buy_fixture_description"="Play this game for %d coins"
+"members_amount"="%d Members";
