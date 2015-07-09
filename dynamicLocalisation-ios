@@ -6,7 +6,7 @@
       "powerupShareText":"Just used my %@ on %@ on @ultimatefanlive for %@ vs %@ %@",
       "referShareSubject":"Hey, I'm playing this real-time fantasy football",
       "referShareText":"Hey, I'm playing real-time fantasy football on @ultimatefanlive. Join me: %@",
-      "shareGroupText":"Hey, join my friends league on UFL and lets play real-time fantasy football: %@ PIN: %@",
+      "shareGroupText":"Hey, join my friends league on UFL and lets play real-time fantasy football. PIN: %@",
       "actions":{  
          "offside_won":"Offside Won",
          "won_corner":"won corner",
