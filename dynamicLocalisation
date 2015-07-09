@@ -1,9 +1,11 @@
-﻿{  
+{  
    "en":{  
       "hashFinishFormat":"Just finished 1st on @UltimateFanLive for %s v %s %s",
       "hashScreenFormat":"Check this out! @UltimateFanLive for %s v %s %s",
       "hashDraftFormat":"I just drafted %s & %s on @UltimateFanLive for %s v %s %s",
       "powerupShareText":"Just used my %s on %s on @ultimatefanlive for %s vs %s %s",
+      "referShareSubject":"Hey, I'm playing this real-time fantasy football",
+      "referShareText":"Hey, I'm playing real-time fantasy football on @ultimatefanlive. Join me: %s",
       "actions":{  
          "offside_won":"Offside Won",
          "won_corner":"won corner",
