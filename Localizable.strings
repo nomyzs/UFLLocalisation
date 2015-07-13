@@ -1,8 +1,60 @@
+/* 
+  Localized.strings
+  ultimatefanios
+
+  Created by Kamil Badyla on 12/02/2015.
+  Copyright (c) 2015 Realtime Games Ltd. All rights reserved.
+*/
+
+
+//Errors
+"logout_title"="Logout";
+"unauthorised" = "Your session expired. Please log in once again!";
+
+//Right sidebar
+"NoParties" = "Start new game";
+
+//Party states
+"Finished" = "finished";
+"Invited" = "Invited";
+"Queued" = "Queued";
+"YourTurn" = "Your Turn!";
+"Drafting" = "Drafting";
+"Waiting" = "Waiting";
+"Matching" = "Matching";
+"Live" = "Live";
+
+//Create party
+"CreatePartyTitle" = "Create Party";
+"CreatePartyDesc" = "What party do u wanna create?";
+
+//Party Invitation
+"JoinPartyTitle" = "Join Party";
+"JoinPartyDesc" = "Would you like to join this party?";
+
+//RIGHT SIDE BAR
+"MATCHES" = "MATCHES";
+
+//GENERAL
+"Cancel" = "Cancel";
+
+//Fixtures
+"NoFixtures" = "No games in near future. Check before season starts";
+
+"setting_services"="Setting Services...";
+"getting_groups"="Getting groups...";
+"getting_current_party"="Getting current party..";
+"getting_localisation"="Getting localisation";
+
+
 "app_name"="Ultimate Fan Live";
 "prompt_email"="Email";
 "prompt_password"="Password (optional)";
 "action_sign_in"="Login";
 "action_register"="Sign up";
+"general_success"="Success";
+"general_error"="Error";
+"error_too_short"="Text is too short";
 "error_invalid_email"="This email address is invalid";
 "error_invalid_password"="This password is too short";
 "error_incorrect_password"="This password is incorrect";
@@ -17,11 +69,17 @@
 "progress_loading_msg"="Logging in…";
 "sign_up_using_facebook"="Sign up using Facebook";
 "forget_password_msg"="Forgot Password? Tap here…";
+"forgot_password_title"="Forgot password";
+"change_password_title"="Change password";
+"forgot_password_confirmation_title"="Password Sent";
+"forgot_password_confirmation_text"="We've sent you an e-mail with new password. Please check your mail.";
 "password_label"="Password";
 "confirm_password_label"="Confirm";
 "registration_email_label"="E-mail";
 "username"="Username";
 "password"="Password";
+"send_me_password"="Send Me Password";
+
 "create_league_lbl"="Create a league";
 "join_league_lbl"="Join a league";
 "header_your_leagues"="Your Leagues";
@@ -31,8 +89,6 @@
 "lobby_stats_global_rank"="Global Rank";
 "lobby_stats_team_rank"="Team Rank";
 "header_your_stats"="Your stats this week";
-"lobby_join_public_game"="Join Public Game";
-"lobby_public_game_desc"="Play a game with fans\\nfrom all over the world!";
 "invite_via_fb_label"="Invite a Facebook friend";
 "invite_via_tweet_label"="Invite via tweet";
 "invite_via_whatsapp_label"="Invite a WhatsApp Contact";
@@ -46,6 +102,7 @@
 "menu_edit_username"="Edit username";
 "menu_change_fav_team"="Change favorite team";
 "error_teams_download_failed"="Failed to download teams";
+"error_groups_download_failed"="Failed to get groups, try again...";
 "successful_set_fav_team_request"="Success";
 "error_choose_fav_team_no_selection"="You have to select a team";
 "change_username_label"="Change your username";
@@ -82,18 +139,23 @@
 "negative_points"="Negative Points";
 "draft_round_list_header"="Round %d";
 "drafting_label"="Drafting...";
+"you_have_been_kicked_title"="Group";
 "you_have_been_kicked_message"="You have been kicked of the group";
-"sure_to_kick_user_prompt"="Are you sure you want to kick %s";
+"kick_user_title"="Kick user";
+"sure_to_kick_user_prompt"="Are you sure you want to kick %@";
 "group_name"="Group Name";
 "pin"="Pin";
+"wrong_pin"="Wrong PIN!";
 "group_image"="Group Image";
 "notifications"="Notifications";
 "group_members"="Group Members";
 "leave_group"="Leave Group";
 "done"="Done";
+"change_group_name_title"="Change group name";
 "action_settings"="Settings";
 "no_fixtures"="No games in near future.\nCheck before season starts";
 "group_members_invite_btn"="Invite group members";
+"group_joined_desc"="Group joined";
 "group_create_name_label"="Group name";
 "group_members_kick"="KICK";
 "group_chat_invite_join"="Join";
@@ -128,6 +190,7 @@
 "game_feed_label"="Game feed";
 "timeline_footer_gamestart_text"="Game Start\n%s";
 "pts"="pts";
+"first_share_game_prompt_title"="Share draft";
 "first_share_game_prompt"="Earn 200 coins \nfor sharing your draft with friends.";
 "share_powerup"="Make your boost \nlast 20% longer by telling your mates!";
 "action_power_up"="Power Up";
@@ -154,6 +217,7 @@
 "points"="Points";
 "trade_summary"="%s for Heniek %s.";
 "accept"="Accept";
+"decline"="Decline";
 "reject"="Reject";
 "trade_summary_prefix"="I want to trade ";
 "trade_summary_for"=" for ";
@@ -163,6 +227,7 @@
 "counter"="Counter";
 "please_decide_offer_before_leaving"="Please decide on the offer before you leave";
 "change_forgotten_password_header"="You have forgotten your password, create a new one";
+"create_new_password_title"="Create new password";
 "pre_draft_chat_page_title"="Chat";
 "pre_draft_opponents_title"="Opponents";
 "pre_draft_chat_players_title"="Players";
@@ -184,6 +249,7 @@
 "chat_label_trade_extended"="Trade extended";
 "chat_label_trade_accepted"="Trade accepted";
 "chat_label_trade_reject"="Trade rejected";
+"chat_label_trade_expired"="Trade expired";
 "chat_label_trade_countered"="Trade countered";
 "chat_label_trade_cancelled"="Trade cancelled";
 "chat_label_trade_invalidated"="Trade invalidated";
@@ -193,10 +259,10 @@
 "report_user_subjcet"="Reporting Abuse";
 "use_now"="Use Now";
 "not_sufficient_funds"="Not sufficient funds available";
-"game_last_update"="Last update at %s";
+"game_last_update"="Last update at %@";
 "game_power_up_used_this_half"="Powerups used\nthis half";
 "game_stats_shots"="Shots";
-"format_report_user_message"="Hey Guys, I was playing a public game %s vs %s and I wanted to report user %s for..";
+"format_report_user_message"="Hey Guys, I was playing a public game %@ vs %@ and I wanted to report user %@ for..";
 "format_powerup_feed_start"="%s Start";
 "format_powerup_feed_end"="%s End";
 "format_trade_notification_message"="Your trade offer %s for %s has been %s";
@@ -204,7 +270,7 @@
 "format_trade_notification_title"="%s wants to trade";
 "format_trade_notification_players"="%s for %s";
 "format_trade_notification_price"="And %s %d coins";
-"format_pu_last_x_minutes"="Lasts %d minutes.";
+"format_pu_last_x_minutes"="Lasts %@ minutes.";
 "powerup_sharpshooter_title"="Sharpshooter";
 "powerup_passmaster_title"="Pass Master";
 "powerup_defensive_rock_title"="Defensive Rock";
@@ -230,7 +296,12 @@
 "menu_sign_out"="Sign out";
 "menu_terms_privacy"="Terms & Privacy";
 "menu_match_history"="Match History";
+"menu_add_league"="Create & Join Leagues";
+"menu_create_join_league"="Create & Join Leagues";
+"label_create_join_league"="Create or Join League";
+"menu_tutorial"="Tutorial";
 "drawer_edit"="Edit";
+"edit_profile"="Edit Profile";
 "action_profile"="Profile";
 "dialog_message_password_email_send"="Check your inbox for an email";
 "trade_offer_no_longer_avail"="Trade offer is no longer on the table";
@@ -248,6 +319,8 @@
 "label_settings"="Settings";
 "label_group_members"="Group Members";
 "group_page_league_leaderboards_title"="Leagues";
+"coin"="coin";
+"plural_coin"="coins";
 "action_coins"="Coins";
 "invite_for_coins"="Get a friend to join UFL and earn 4,000 coins per person!";
 "coins_store_desc"="Your wallet contains all the coins you have accumulated from playing and winning matches. If you would like to purchase more coins you can do so below.";
@@ -257,6 +330,8 @@
 "buy_coins"="Buy Coins";
 "no_store_items"="No Items found.\nPlease check your connection and try again later";
 "coins_history"="Coins History";
+"my_coins_title"="My Coins";
+"no_coin_history"="No History";
 "sidebar_title"="Matches";
 "create"="Create";
 "waiting"="Waiting";
@@ -277,6 +352,7 @@
 "format_join_game_popup_message"="Do you wan to join %s vs %s game?";
 "vs"="vs";
 "other"="Other";
+"undefined"="Undefined";
 "defender"="Defender";
 "midfielder"="Midfielder";
 "goalkeeper"="Goalkeeper";
@@ -300,12 +376,14 @@
 "try_again_shortly"="Try again shortly";
 "drafted"="Drafted";
 "your_balance"="Your Balance:";
-"format_flash_message_title"="You earned %s Coins!";
+"format_flash_message_title"="You earned %@ Coins!";
 "err_no_internet_connection"="Check your internet connection";
 "err_no_channels_for_share"="Sorry, we couldn\'t find any apps that we can use for sharing";
 "err_browser_not_found"="Couldn\'t find a browser app";
 "general_ok"="Ok";
 "general_no_thanks"="No, thanks";
+"general_yes"="Yes";
+"general_no"="No";
 "free"="Free ";
 "no_history"="No History";
 "tap_to_see_more_info"="Tap to see more info.";
@@ -318,5 +396,109 @@
 "predraft_member_joined_status"="Joined";
 "fixtures_notify_switch_desc"="Notify me when the game opens";
 "buy_fixture_title"="Unlock Fixture";
-"buy_fixture_description"="Play this game for %d coins"
+"buy_fixture_description"="Play this game for %d coins";
+"buy_fixture_unlock_btn_title"="Unlock Now";
+
 "members_amount"="%d Members";
+"format_members"="%d Members";
+
+"fixtures_title"="Fixtures";
+"label_fixtures"="Fixtures";
+
+"not_enought_coins_buy_prompt"="Not enough coins. Would you like to buy some?";
+"not_enough_coins"="Not Enough Coins";
+
+"change_picture_lbl"="Change Picture";
+"choose_picture_from_library"="Choose photo from library";
+"pick_photo"="Take new photo";
+
+"no_leagues1"="Your are not in any league!";
+"no_leagues2"="Create or join a League from the left menu";
+"no_leagues3"="And start playing with friends.";
+
+"group_invite_search_ufl_players_tab_lbl"="Search UFL Friends";
+"group_invite_invite_friends_to"="Invite Friends";
+"powerup_boost"="BOOST";
+
+"group_home_global_rank_lbl"="Global rank - %d";
+"group_home_results_btn"="Results";
+
+"group_selector_title"="Select Groups";
+"general_no_content"="No Data";
+
+"header_choose_league"="Choose league";
+"choose_league_header_title"="Choose league";
+"no_team"="No Team";
+
+"last_5_leaderboard_lbl"="Last 5: ";
+"global_leaderboard_tab_title"="Global";
+
+"leaderboard_played"="Played";
+"leaderboard_wins"="wins";
+
+"leaderboard_not_available_for_this_time_period" = "These rankings are not available, change time period";
+
+"edit_username_placeholder"="Display name";
+
+"trade_description"="I want to trade %@ for %@ and %@ %d coins";
+
+"push_notifications_disabled"="Push Notifications are Disabled";
+"push_notifications_disable_desc"="Please enable by visiting: iPhone Settings > Notification Center > UFL\nSwitch on Alerts";
+
+"match_notification_title"="Coming match!";
+"match_notification_desc"="Line-ups are in for %@ vs %@. Join a game on UFL and draft your 2 players!";
+
+"terms_conditions_title"="Terms & Conditions";
+
+"pregame_text_admin"="Only proceed to the next screen as soon as all your friends have joined your game. \nYou can play with 2 to 5 friends in total!";
+"pregame_text_regular_user"="The game host will start the draft when line-up's are in";
+"pregame_title"="Pre game";
+
+"general_sorry"="Sorry";
+"your_device_doesnt_support_mail"="Your device doesn't support in app mail.";
+
+"chat_powerup_activated"="has just activated a %@ on ";
+"chat_powerup_owned_by"=" owned by ";
+
+"tip_tap_here_to_trade"="Tap here to trade!";
+"tip_powerup_main"="Tap to see your Poweru-up card.";
+
+"premium"="Premium";
+"label_create_private_game"="Private Game";
+
+"fixture_play_public_btn" = "Play Public";
+"fixture_play_private_btn"= "Play League";
+
+"login_enter_details"="Enter Details";
+
+
+
+"following_label"="Following";
+"followers_label"="Followers";
+
+"profile_results"="Results";
+"profile_recent_public_players"="Recent Public Players";
+
+"you_have_received_an_invite"="You have received an invite";
+
+"kick_off_starts_in"="Kick off starts in %d minutes";
+
+"fixtures_not_enough_coins_txt"="You don't have enough coins Purchase coins to play this game";
+
+"match_reminder_rooms_open_1hr_before_the_match"="Rooms open 1hr before the match";
+"match_reminder_turn_the_reminder_on"="Turn the reminder on";
+"match_reminder_turn_the_reminder_on2"="and be alerted when the match is about to start";
+
+
+
+"onboarding_tip_1_title"="Here";
+"onboarding_tip_1_text"="you can create and join a League";
+
+"onboarding_tip_2_text"="Use the side-bar to manage your games, invite and alerts";
+
+"onboarding_tip_3_title"="Play from here";
+"onboarding_tip_3_text"="Rooms open 1hr before kick off\n Turn on push for alets";
+
+
+
+
